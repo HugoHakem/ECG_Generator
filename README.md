@@ -1,5 +1,13 @@
-# Projet : générateur d'ECG
-## Membre du projet :
+# Credit:
+This project has been conducted by the contributors below. This project is a semester long project performed at CentraleSupélec in Spring 2022, under the directive of Micheal Kirkpatrick, Cristian Puentes et Trungdung Le, professor at CentraleSupélec. Our client were Implicity, a French Cardiology HealthTech compagny represented by David Perlmutter and Eliot Crespin.
+
+This README.md have been created by Virgile Rapegno. This project is a group effort, see below the contributors. 
+
+# Disclaimer:
+This project have been conducted in France for French client and supervised by French professor. Also the Report is therefore written in French, and code details as well. 
+
+# Project: ECG Generator
+## Project Members:
 - CUBAYNES Marie marie.cubaynes@student-cs.fr
 - GERONY Guillaume guillaume.gerony@student-cs.fr
 - HAKEM Hugo hugo.hakem@student-cs.fr
@@ -7,30 +15,34 @@
 - RAPEGNO Virgile virgile.rapegno@student-cs.fr
 - WU Sarah sarah.wu@student-cs.fr
 
-## Description du projet : 
-Développer un logiciel générateurd’électrocardiogrammes(ECG, 1 voie) avec différentes pathologies (asystolie,  bradycardie,  tachycardie,  flutter,  fibrillation  atriale,  fibrillation  ventriculaire) et intégrant entre autres, des parasites et du bruit.
+## Project Description:
+Develop a software for generating electrocardiograms (ECG, 1 lead) with various pathologies (asystole, bradycardia, tachycardia, flutter, atrial fibrillation, ventricular fibrillation), and incorporating parasites and noise, among other features.
 
-L’équipe projet devra :
-- Comprendre les différents types d'arythmies et leur impact sur l'ECG afin de les modéliser,
-- Rechercher les bases de données d'ECG (bases physionet, CU, AHA),
-- Mettre en œuvre une interface graphique en Python permettant de choisir des types d'arythmie et générer de fichiers ECG avec séquences différentes.
+The project team is expected to:
 
-Ce logiciel pourrait être très utile pour :
-- Tester ou entraîner des algorithmes de machine learning d'analyse d'ECG.
-- Former des étudiants en médicine à l’analyse d’ECG. Il pourra être validé par des médecins qui établiront si les séquences générées sont improbables ou réels. 
+- Understand the different types of arrhythmias and their impact on ECG in order to model them.
+- Research ECG databases (e.g., physionet, CU, AHA).
+- Implement a graphical interface in Python to select arrhythmia types and generate ECG files with different sequences.
 
-## Utilisation :
-Deux possibilités sont disponibles :
-- L'interface graphique permet d'observer un unique ECG à la fois que l'on peut configurer comme on le souhaite. Il suffit de lancer le fichier **interface.py** pour l'ouvrir.
-- Le générateur est aussi disponible dans le terminal au travers du fichier **export.py**. Il convient de préciser le type de maladie choisie, le nombre d'ECG à générer et la destination des fichiers. Plus d'information sont disponibles avec l'option -help.
+This software could be highly beneficial for:
 
-## Dépendences :
-Ce projet requiert l'installation des modules pythons suivants :
-- matplotlib
-- numpy
-- scipy
-- wfdb
-Il est simple de s'assurer de l'installation avec un simple
+- Testing or training machine learning algorithms for ECG analysis.
+- Training medical students in ECG analysis. It can be validated by physicians to determine the realism of the generated sequences.
+
+## Usage:
+Two options are available:
+
+- The graphical interface allows the observation of a single ECG at a time, configurable as desired. Simply launch the interface.py file to open it.
+- The generator is also available in the terminal through the export.py file. Specify the chosen disease type, the number of ECGs to generate, and the destination for the files. More information is available with the -help option.
+
+## Dependencies:
+This project requires the installation of the following Python modules:
+
+matplotlib
+numpy
+scipy
+wfdb
+Ensure their installation with a simple:
 ```
 pip install requirements.txt
 ```
