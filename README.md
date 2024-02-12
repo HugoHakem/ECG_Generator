@@ -4,7 +4,7 @@ This project has been conducted by the contributors below. This project is a sem
 This README.md have been created by Virgile Rapegno. This project is a group effort, see below the contributors. 
 
 # Disclaimer:
-This project have been conducted in France for French client and supervised by French professor. Also the Report is therefore written in French, and code details as well. 
+This project has been conducted in France for French client and supervised by French professor. Also the Report is therefore written in French, and code details as well. 
 
 # Project: ECG Generator
 ## Project Members:
